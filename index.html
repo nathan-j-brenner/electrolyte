@@ -7,7 +7,8 @@
 <body>
 	<header>
 		<h1>Electrolyte</h1>
-		<img src="assets/noun_21604_cc.svg" class="logo">
+	</header>
+	<div id="nav_panel">
 		<nav class="main_nav">
 			<ul>
 				<li><a href="#article_one">Article One</a></li>
@@ -15,8 +16,9 @@
 				<li><a href="#article_three">Article Three</a></li>
 			</ul>
 		</nav>
-	</header>
+	</div>
 	<div class="main_content">
+		<img src="assets/noun_21604_cc.svg" class="logo">
 		<div id="article_one">
 			<h3>Article One</h3>
 			<img src="assets/noun_107981_cc.svg" class="article_img" height="50" width="50">
@@ -51,7 +53,11 @@
 			</p>
 		</div>
 	</div>
-	<script type="text/javascript" href="scripts/main.js"></script>
+	<footer>
+		<a href="#nav_panel"><img src="assets/hamburger.svg" height="50" width="50" id:"hamburger"></a>
+	</footer>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="scripts/main.js" type="text/javascript" charset="utf-8"></script>
 </body>
 
 </html>
