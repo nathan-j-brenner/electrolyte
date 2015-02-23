@@ -1,12 +1,12 @@
 header {
 	text-align: center;
-	border: 1px solid black;
 	width: 75%;
-	margin-left: 4%;
 	float: right;
 	position: fixed;
 	height: 10%;
 	margin-left: 20%;
+	color: #FFFFFF;
+	background-color: #000000;
 }
 
 .logo {
@@ -15,7 +15,7 @@ header {
 	text-align: center;
 }
 
-.main_nav {
+#nav_panel {
 	border: 1px solid black;
 	width: 20%;
 }
@@ -26,9 +26,11 @@ li {
 
 .main_content {
 	border: 1px solid black;
-	width: 75%;
-	margin-left: 4%;
+	width: 78%;
+
+	/*margin-left: 4%;*/
 	float: right;
+	margin-top: 6%;
 }
 
 .article_img {
