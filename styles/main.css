@@ -1,5 +1,15 @@
 header {
 	text-align: center;
+	background-color: #52DDFF;
+	position: fixed;
+	text-style: none;
+}
+
+.header {
+	position: center;
+	
+
+
 }
 
 .logo {
@@ -15,4 +25,13 @@ li {
 	float: left;
 	height: 50;
 	width: 50;
+}
+
+#logo {
+	background-color: #52DDFF;
+	text-style: none;
+	border-radius: 25px;
+}
+footer {
+	text-align: center;
 }
