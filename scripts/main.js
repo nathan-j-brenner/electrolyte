@@ -1,10 +1,13 @@
 
 //hide and show nav menu
-// $(".main_nav").hide();
+var $nav = $("#nav_panel")
+var $hamburger = $("#hamburger")
+var $mainContent = $(".main_content")
+//hide nav bar
+$nav.hide();
 
-// $(".main_nav").show("slow");
-
-// $("#hamburger").click(function() {
-// 	$("#nav_panel").show("slow");
-// });
-
+//show nav bar
+$hamburger.click(function(){
+	$nav.toggle();
+	// $mainContent.css("width", 50%);
+});
