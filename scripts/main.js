@@ -12,10 +12,10 @@ $hamburger.click(function(){
 	// $mainContent.offset();
 });
 
+
 $("#artOne").click(function() {
 	$("#article_one").find();
 	$nav.hide();
-});
 
 
 $("#artTwo").click(function(){
@@ -23,8 +23,9 @@ $("#artTwo").click(function(){
 	$nav.hide();
 });
 
+
 $("#artThree").click(function(){
 	$("#article_three").find();
 	$nav.hide();
-});
 
+});
