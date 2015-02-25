@@ -10,7 +10,8 @@
 	z-index: -1;
 	text-decoration: none;
 	color: #FFFFFF;
-	padding-top: 20%;
+	padding-top: 30%;
+	padding-right: 10%;
 }
 
 #nav_panel li {
@@ -50,11 +51,15 @@ header {
 	margin-right: 5%;
 }
 #article_one {
-	padding-top: 15%;
+	padding-top: 25%;
 }
 
 #article_two {
-	padding-top: 13%;
+	padding-top: 23%;
+}
+
+#article_three {
+	padding-top: 30%;
 }
 .logo {
 	height: 20%;
