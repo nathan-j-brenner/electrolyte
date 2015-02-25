@@ -1,6 +1,6 @@
 #nav_panel {
 	background-color: #A9A9A9;
-	width: 15%;
+	width: 25%;
 	height: 100%;
 	position: fixed;
 	top: 0;
@@ -51,6 +51,13 @@ header {
 	margin-bottom: 10%;
 	margin-left: 5%;
 	margin-right: 5%;
+}
+#article_one {
+	padding-top: 15%;
+}
+
+#article_two {
+	padding-top: 13%;
 }
 .logo {
 	height: 10%;
