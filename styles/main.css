@@ -1,13 +1,9 @@
 #nav_panel {
 	background-color: #A9A9A9;
-	width: 25%;
+	width: 70%;
 	height: 100%;
 	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: -1;
+	z-index: 1;
 	text-decoration: none;
 	color: #FFFFFF;
 	padding-top: 30%;
@@ -35,13 +31,6 @@ header {
 	z-index: 2;
 }
 
-#nav_panel {
-	border: 1px solid black;
-	width: 20%;
-	margin-top: 1%;
-	color: #FFFFFF;
-	z-index: 1;
-}
 
 .main_content {
 	width: 90%;

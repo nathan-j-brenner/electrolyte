@@ -9,7 +9,7 @@ $nav.hide();
 //show nav bar
 $hamburger.click(function(){
 	$nav.toggle();
-	// $mainContent.offset();
+	// $mainContent.css("width", "70%").css("float", "right");
 });
 
 
