@@ -16,7 +16,7 @@ $hamburger.click(function(){
 $("#artOne").click(function() {
 	$("#article_one").find();
 	$nav.hide();
-
+});
 
 $("#artTwo").click(function(){
 	$("#article_two").find();
@@ -27,5 +27,4 @@ $("#artTwo").click(function(){
 $("#artThree").click(function(){
 	$("#article_three").find();
 	$nav.hide();
-
 });
