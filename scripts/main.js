@@ -8,23 +8,23 @@ $nav.hide();
 
 //show nav bar
 $hamburger.click(function(){
-	$nav.toggle();
+	$nav.toggle("slow");
 	// $mainContent.css("width", "70%").css("float", "right");
 });
 
 
 $("#artOne").click(function() {
 	$("#article_one").find();
-	$nav.hide();
+	$nav.hide("slow");
 });
 
 $("#artTwo").click(function(){
 	$("#article_two").find();
-	$nav.hide();
+	$nav.hide("slow");
 });
 
 
 $("#artThree").click(function(){
 	$("#article_three").find();
-	$nav.hide();
+	$nav.hide("slow");
 });
