@@ -32,6 +32,16 @@ header {
 	background-color: #000000;
 	padding-top: 1%;
 	padding-bottom: 5%;
+	position: fixed;
+	z-index: 2;
+}
+
+#nav_panel {
+	border: 1px solid black;
+/*	width: 20%;*/
+	margin-top: 1%;
+	color: #FFFFFF;
+	z-index: 1;
 }
 
 
