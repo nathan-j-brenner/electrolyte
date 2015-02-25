@@ -9,13 +9,15 @@ $nav.hide();
 //show nav bar
 $hamburger.click(function(){
 	$nav.toggle();
-	$mainContent.offset();
+	// $mainContent.offset();
 });
 
-$("#artOne").click(function(){
+$("#artOne").click(function() {
 	$("#article_one").find();
 	$nav.hide();
 });
+
+
 $("#artTwo").click(function(){
 	$("#article_two").find();
 	$nav.hide();
