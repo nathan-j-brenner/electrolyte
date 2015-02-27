@@ -2,13 +2,35 @@
 
     .logo {
       float:left;
-      width: 15%;
-      height: 15%;
+      width: 200px;
+      height: 200px;
+			margin: 100px 0 0 10px;
+
     }
 
+		.main_content {
+			padding: 50px;
+			width: 45%;
+			float: right;
+
+		}
+    header {
+      background-color: none;
+    }
+
+		h1 {
+			text-align: left;
+			color: brown;
 
 
 
+		}
 
+		#nav_panel  {
+			color: #599a68;
+			margin: 15% 0 0 0;
 
-  }
+}
+		#nav_panel ul {
+			list-style: none;
+		}
