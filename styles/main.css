@@ -1,14 +1,11 @@
 #nav_panel {
-	background-color: #FFFFFF;
-	height: 100%;
 	position: fixed;
-/*	z-index: 1;*/
-	text-decoration: none;
-	color: #FFFFFF;
+	top: 0;
+	bottom: 0;
+	width: 13.755em;
+	left: -13.755em;
+	height: 100%;
 	padding-top: 30%;
-	padding-right: 10%;
-	width:10em;
-	right: -10em;
 	-webkit-transform: translate(0px, 0px);
     -moz-transform: translate(0px, 0px);
     -o-transform: translate(0px, 0px);
@@ -20,11 +17,10 @@
     transition: 0.15s ease;
 }
 #nav_panel.active {
-	-webkit-transform: translate(-10em, 0px);
-	-moz-transform: translate(-10em, 0px);
-	-o-transform: translate(-10em, 0px);
-	-ms-transform: translate(-10em, 0px);
-	transform: translate(-10em, 0px);
+	-webkit-transform: translate(13.755em, 0px);
+	-moz-transform: translate(13.755em, 0px);
+	-o-transform: translate(13.755em, 0px);
+	-ms-transform: translate(13.755em, 0px);
 }
 
 #nav_panel li {
@@ -33,10 +29,10 @@
 	text-decoration: none;
 }
 
+
 .site-wrap {
 	position: absolute;
 }
-
 header {
 	text-align: center;
 	width: 100%;
@@ -46,31 +42,28 @@ header {
 	background-color: #000000;
 	padding: 1%;
 	padding: 0 0 5%;
-/*	z-index: 2;*/
-
-
 }
 
 .main_content {
 	width: 90%;
-	margin: 0 5% 10% 5%
-	-webkit-transform: translate(0px, 0px);
-	-moz-transform: translate(0px, 0px);
-	-o-transform: translate(0px, 0px);
-	-ms-transform: translate(0px, 0px);
-	transform: translate(0px, 0px);
-	-webkit-transition: 0.15s ease;
-	-moz-transition: 0.15s ease;
-	-o-transition: 0.15s ease;
-	transition: 0.15s ease;  
+	margin: 0 5% 10% 5% 
+       -webkit-transform: translate(0px, 0px);
+       -moz-transform: translate(0px, 0px);
+       -o-transform: translate(0px, 0px);
+       -ms-transform: translate(0px, 0px);
+       transform: translate(0px, 0px);
+       -webkit-transition: 0.15s ease;
+       -moz-transition: 0.15s ease;
+       -o-transition: 0.15s ease;
+       transition: 0.15s ease; 
 }
 
 .main_content.active {
-	-webkit-transform: translate(-10em, 0px);
-	-moz-transform: translate(-10em, 0px);
-	-o-transform: translate(-10em, 0px);
-	-ms-transform: translate(-10em, 0px);
-	transform: translate(-10em, 0px);
+       -webkit-transform: translate(13.725em, 0px);
+       -moz-transform: translate(13.725em, 0px);
+       -o-transform: translate(13.725em, 0px);
+       -ms-transform: translate(13.725em, 0px);
+       transform: translate(13.725em, 0px);
 }
 
 #article_one {
@@ -112,10 +105,6 @@ footer {
 	position: fixed;
     top: 90%;
 }
-
-/*#hamburger {
-	float: right;
-}*/
 
 h1 {
 	color: red;
